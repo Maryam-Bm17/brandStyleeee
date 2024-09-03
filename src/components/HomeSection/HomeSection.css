@@ -1,0 +1,130 @@
+.home {
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+
+.banner__mobile__images__woman {
+    background-color: #EBE0DC;
+}
+
+.banner__mobile__images__men {
+    background-color: #E9E9E9;
+}
+
+
+.home__baner__desktop {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.home__banner__mobile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.home__banner__img__mobile {
+    height: 260px;
+}
+
+.home__banner__img__mobile img {
+    height: 100%;
+}
+
+.banner__img__mobile__right {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.banner__img__mobile__left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home__banner__mobile__images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    visibility: hidden;
+}
+
+.home__banner__right {
+    display: flex;
+    justify-content: center;
+}
+
+
+.home__baner__content__mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+
+.banner__content__title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-primary);
+    font-family: 'IranYekan Bold';
+}
+
+.banner__content__text {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.btn__link {
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 1rem; */
+    width: 15rem;
+    height: 4rem;
+    background-color: transparent;
+    font-size: 1.8rem;
+    border: 1px solid var(--bg-button);
+    transition: color 200ms ease-in;
+    font-family: 'IranYekan';
+    cursor: pointer;
+}
+
+.btn__link:hover {
+    background-color: var(--bg-button);
+    color: #FFF;
+}
+
+.home__banner__img {
+    height: 600px;
+}
+
+.home__banner__img img {
+    height: 100%;
+}
+
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #AB4F66 !important;
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev::after {
+    font-size: 36px !important;
+}

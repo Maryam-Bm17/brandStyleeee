@@ -1,0 +1,29 @@
+.send__item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    }
+    .send__item__content{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+   
+    .item__icon{
+        width: 5rem;
+        height: 5rem;
+        color: var(--text-primary);
+    }
+    .send__item__title{
+    font-family: 'IranYekan Bold';
+    
+    }
+    
+    .send__item__desc{
+        font-size: 1.4rem;
+    }
+    

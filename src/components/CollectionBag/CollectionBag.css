@@ -1,0 +1,50 @@
+.collectionBag {
+    margin-bottom: 10rem;
+}
+
+
+
+.collectionBag__img {
+    width: 100%;
+    height: 100%;
+}
+
+.collectionBag__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.collectionBag__details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    width: 100%;
+    height: 300px;
+    padding: 2rem 3rem;
+}
+
+.collectionBag__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-direction: column;
+    width: 100%;
+}
+
+.collectionBag__details__title {
+    font-size: 2.2rem;
+    font-family: 'IranYekan Bold';
+    color: var(--text-primary);
+}
+
+.collectionBag__details__desc {
+    font-size: 1.8rem;
+}
+
+.collectionBag__details__link {
+    margin-top: 2rem;
+}

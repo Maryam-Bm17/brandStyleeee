@@ -1,0 +1,36 @@
+
+
+.categories__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+    border: 1px solid var(--bg-primary);
+
+}
+
+.categories__item__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg-primary);
+    margin-bottom: 2rem;
+}
+
+.categories__item__img img {
+    width: 100%;
+}
+
+.categories__item__title {
+    padding-bottom: 2rem;
+}
+
+.title__link {
+    color: var(--text-primary);
+    font-size: 1.8rem;
+    font-family: 'IranYekan';
+}
+
+.title__link:hover{
+    border-bottom:2px solid var(--text-primary);
+}

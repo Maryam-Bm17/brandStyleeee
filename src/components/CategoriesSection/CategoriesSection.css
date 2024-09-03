@@ -1,0 +1,18 @@
+.categories {
+    margin: 10rem 0;
+}
+
+.categories__header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 3rem;
+}
+
+.categories__title {
+    color: var(--text-primary);
+    font-size: 2.4rem;
+    font-family: 'IranYekan Bold';
+
+}
+

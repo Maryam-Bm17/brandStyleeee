@@ -1,0 +1,11 @@
+.send{
+    margin-bottom: 10rem;
+    /* padding: 2rem; */
+    }
+    
+    .send__wrapper{
+        display: flex;
+        box-shadow: 0 2px 6px 0 rgba(51, 73, 94, 0.1);
+        padding: 4rem 2rem;
+        flex-wrap: wrap;
+    }

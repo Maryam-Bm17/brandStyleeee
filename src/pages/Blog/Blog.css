@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.blog__img{
+    margin-bottom: 4rem;
+    padding-top: 5rem;
+}
+.blog__title{
+    font-size: 3rem;
+    font-family: 'IranYekan Bold';
+    color: var(--text-primary);
+    margin-bottom: 2rem;
+}
+.blog__desc{
+width: 60%;
+padding-bottom: 5rem;
+line-height: 2;
+}

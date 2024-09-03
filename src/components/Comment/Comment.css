@@ -1,0 +1,48 @@
+.comment__wrapp{
+    margin-bottom: 10rem;
+    }
+    .comment__title{
+        color: var(--text-primary);
+        font-size: 2.4rem;
+        font-family: 'IranYekan Bold';
+        margin-bottom: 1rem;
+    }
+    .comment__text{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    }
+    .comment__view__text{
+        color: var(--text-primary);
+        font-size: 2rem;
+        font-family: 'IranYekan Bold';
+        margin-bottom: 1rem;
+    }
+    .comment__control{
+        width: 100%;
+        display: block;
+        padding: 1.5rem 1.2rem;
+        height: auto;
+        border: 1px solid #ddd;
+        border-radius: 0.5rem;
+        font-size: 1.2rem;
+        font-family: 'IranYekan';
+        margin-bottom: 1rem;
+    }
+    .comment__details__wrapper{
+        display: flex;
+        align-items: center;
+        
+    }
+   
+    .comment__btn{
+    margin-top: 1rem;
+    font-size: 2.2rem;
+    width: 12rem;
+    }
+    
+    .comment__input__name{
+        padding-left: 10px;
+    }
+    .comment__input__email{
+    padding-right: 10px;
+    }

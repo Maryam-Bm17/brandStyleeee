@@ -1,0 +1,17 @@
+.aboutus{
+    padding: 5rem 0;
+}
+
+
+.aboutus__title{
+    color: var(--bg-button);
+    font-family: 'IranYekan Bold';
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+.aboutus__text{
+    font-size: 1.4rem;
+    line-height: 2;
+    margin-bottom: 2rem;
+}
